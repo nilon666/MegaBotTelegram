@@ -2,15 +2,17 @@ using System;
 
 namespace IT_AcademyEducationHomework
 {
-    public class Lesson2
+    public class Lesson3
     {
-        /*
-        Посчитать сумму n-членов арифметической прогрессии. Для
-        вычисления an нужно взять алгоритм, который писали на занятии. Он
-        если в примерах кода в папке к 3-му заданию
-        */
         public static void Work()
         {
+            /*
+                задание 1
+                Посчитать сумму n-членов арифметической прогрессии. Для
+                вычисления an нужно взять алгоритм, который писали на занятии. Он
+                если в примерах кода в папке к 3-му заданию
+            */
+
             Console.WriteLine(new string('#', 20));
             Console.WriteLine("Задание 1");
             Console.WriteLine(new string('#', 20));
@@ -56,7 +58,8 @@ namespace IT_AcademyEducationHomework
                 else break;
 
             }
-            
+
+
             int count_num;
             while (true)
             {
